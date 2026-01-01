@@ -452,7 +452,7 @@
                 document.getElementById('text-target').innerHTML = '';
                 const text = "قدرُ الأخوةِ فيكِ لا يعلى عليه وإن بعدتِ فمكانكِ بين الحنايا والشغافِ فأنتِ أختي إن قدَّرَ اللهُ الّلقاءَ فأنا سعدتُُ وأنت طبتِ أو لمْ يكنْ فرضىً بما قسمَ المليكُ وقدْ عرفتِ قسماً أحبُّ ترابَ رجلكِ أيما أرضٍ وطأتِ وأذوقَ طعمَ الطيبَ في أبياتكِ مهما كتبتِ فيكِ عرفتُ القلبَ يطربُ إنْ نطقتِ أو سكتِ فنقاوةُ الصحراءِ في أنفاسكِ عذباً رشفتِ أدعو الإلهَ يصونكِ أنى رحلتِ أو أقمتِ";
                 let i = 0;
-                function type(){ if(i < text.length){ document.getElementById('text-target').innerHTML += text.charAt(i); i++; setTimeout(type,150); } else {
+                function type(){ if(i < text.length){ document.getElementById('text-target').innerHTML += text.charAt(i); i++; setTimeout(type,80); } else {
                     // بعد ما تخلص الكتابة نعرض زر اعادة كلشي
                     resetBtn.style.display = 'block';
                 } }
